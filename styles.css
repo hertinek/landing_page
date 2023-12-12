@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+    background-color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h4 {
+    font-size: 18px;
+    color: #e5e7eb;
+    /* in case the default font of h4 is not regular
+    font-weight: regular; */
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+}
+
+
+
+
+
+/* 
+THINGS TO REMEMBER (++ = done):
+-- Make buttons and links clickable
+-- Change cursors to change on links
+-- Put an eye icon on tab
+++ Link the CSS style sheet you dumbass!
+
+
+*/
