@@ -1,5 +1,5 @@
 * {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
@@ -53,6 +53,33 @@ a {
 
 .title {
     flex: 1;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.set-of-pictures {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.set-of-pictures figure {
+    margin: 0;
+    width: min-content;
+}
+
+.set-of-pictures figure img {
+    width: 140px;
+    height: 140px;
+    border: #3882f6 solid 5px;
+    border-radius: 10px;
 }
 
 .quote-section {
