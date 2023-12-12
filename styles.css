@@ -1,11 +1,55 @@
+* {
+    border: solid 1px red;
+}
+
 body {
     margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    width: 100%;
 }
 
 header,
 footer {
     background-color: #1f2937;
+}
+
+header .container {
+    width: 70%;
+    margin: 20px auto 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+}
+
+.top h3 {
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-title {
+    display: flex;
+}
+
+.rectangle-picture {
+    width: 400px;
+    flex: 1;
+}
+
+.rectangle-picture img {
+    width: 100%;
+}
+
+.title {
+    flex: 1;
 }
 
 .quote-section {
