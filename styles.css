@@ -33,11 +33,9 @@ h3 {
     color: #f9faf8;
 }
 
-h4 {
+p {
     font-size: 18px;
     color: #e5e7eb;
-    /* in case the default font of h4 is not regular
-    font-weight: regular; */
 }
 
 button {
@@ -58,6 +56,8 @@ THINGS TO REMEMBER (++ = done):
 -- Change cursors to change on links
 -- Put an eye icon on tab
 ++ Link the CSS style sheet you dumbass!
+-- Find lower contrast color for the text under the title in the header section
+-- Remove text decoration on links
 
 
 */
