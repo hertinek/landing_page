@@ -8,6 +8,32 @@ body {
     width: 100%;
 }
 
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 6px 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 8px 0;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px 0;
+}
+
 header,
 footer {
     background-color: #1f2937;
@@ -42,17 +68,16 @@ a {
 }
 
 .rectangle-picture {
-    /* width: 400px; */
+    flex: 1;
+}
+
+.title {
     flex: 1;
 }
 
 .rectangle-picture img {
     max-width: 100%;
     height: auto;
-}
-
-.title {
-    flex: 1;
 }
 
 .information {
@@ -75,9 +100,13 @@ a {
     width: min-content;
 }
 
+figure {
+    font-size: 18px;
+}
+
 .set-of-pictures figure img {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 150px;
     border: #3882f6 solid 5px;
     border-radius: 10px;
 }
@@ -88,32 +117,19 @@ a {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px 180px 50px 195px;
+    margin: 0;
 }
 
-h1 {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-    margin: 6px 0;
-}
-
-h2 {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
-}
-
-h3 {
+.quote-section figcaption {
     font-size: 24px;
-    color: #f9faf8;
-    margin: 8px 0;
-}
-
-p {
-    font-size: 18px;
-    color: #e5e7eb;
-    margin: 8px 0;
-}
+    font-weight: 700;
+    font-style: normal;
+    text-align: right;
+    margin-right: 70px;
+}    
 
 button {
     background-color: #3882f6;
@@ -135,11 +151,8 @@ button {
 /* 
 THINGS TO REMEMBER (++ = done):
 -- Make buttons and links clickable
--- Change cursors to change on links
+-- Cursors to change on links
 -- Put an eye icon on tab
-++ Link the CSS style sheet you dumbass!
--- Find lower contrast color for the text under the title in the header section
--- Remove text decoration on links
 
 
 */
