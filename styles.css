@@ -8,31 +8,42 @@ body {
     width: 100%;
 }
 
+/* TEXT DISPLAY SELECTORS */
+    h1 {
+        font-size: 48px;
+        color: #f9faf8;
+        font-weight: 900;
+        margin: 6px 0;
+    }
 
-h1 {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-    margin: 6px 0;
-}
+    h2 {
+        font-size: 36px;
+        font-weight: 900;
+        color: #1f2937;
+    }
 
-h2 {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
-}
+    h3 {
+        font-size: 24px;
+        color: #f9faf8;
+        margin: 0px 0;
+    }
 
-h3 {
-    font-size: 24px;
-    color: #f9faf8;
-    margin: 8px 0;
-}
+    p {
+        font-size: 18px;
+        color: #e5e7eb;
+        margin: 8px 0;
+    }
 
-p {
-    font-size: 18px;
-    color: #e5e7eb;
-    margin: 8px 0;
-}
+    button {
+        background-color: #3882f6;
+        color: #f9faf8;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 7px 34px;
+        border: solid #f9faf8 2px;
+        border-radius: 10px;
+    }
+/* END TEXT DISPLAY SELECTORS */
 
 header,
 footer {
@@ -40,7 +51,7 @@ footer {
 }
 
 header .container {
-    width: 80%;
+    width: 72%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -67,6 +78,10 @@ a {
     gap: 25px;
 }
 
+.sign-up-1 {
+    border: none;
+}
+
 .rectangle-picture {
     flex: 1;
 }
@@ -84,7 +99,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 72%;
     margin: 0 auto;
 }
 
@@ -114,12 +129,12 @@ figure {
 .quote-section {
     background-color: #e5e7eb;
     font-size: 36px;
-    font-weight: light;
+    font-weight: 200;
     font-style: italic;
     color: #1f2937;
     box-sizing: border-box;
     width: 100%;
-    padding: 50px 180px 50px 195px;
+    padding: 80px 180px 80px 195px;
     margin: 0;
 }
 
@@ -131,17 +146,16 @@ figure {
     margin-right: 70px;
 }    
 
-button {
-    background-color: #3882f6;
-    color: #f9faf8;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px 28px;
-    border-radius: 10px;
-}
-
 .call-to-action {
     background-color: #3882f6;
+    display: flex;
+    box-sizing: border-box;
+    width: 72%;
+    margin: 80px auto;
+    padding: 30px 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
