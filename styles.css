@@ -1,37 +1,40 @@
-* {
-    /* border: solid 1px red; */
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-}
+/* * {
+    border: solid 1px red;
+} */
 
 body {
     margin: 0;
     width: 100%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-/* TEXT DISPLAY SELECTORS */
+    /* TEXT DISPLAY SELECTORS */
     h1 {
         font-size: 48px;
         color: #f9faf8;
         font-weight: 900;
-        margin: 6px 0;
+        margin: -8px 0;
     }
 
     h2 {
         font-size: 36px;
         font-weight: 900;
         color: #1f2937;
+        margin: 0;
+        padding: 0;
     }
 
     h3 {
         font-size: 24px;
         color: #f9faf8;
         margin: 0px 0;
+        font-weight: 900;
     }
 
     p {
         font-size: 18px;
         color: #e5e7eb;
-        margin: 8px 0;
+        margin: 0px 0;
     }
 
     button {
@@ -39,20 +42,28 @@ body {
         color: #f9faf8;
         font-size: 18px;
         font-weight: bold;
-        padding: 7px 34px;
+        padding: 6px 34px;
         border: solid #f9faf8 2px;
         border-radius: 10px;
+        /* font-family is called again here because for some reason button does not inherit it from body */
+        font-family: Roboto, Arial, Helvetica, sans-serif;
     }
-/* END TEXT DISPLAY SELECTORS */
+    /* END TEXT DISPLAY SELECTORS */
 
+
+/* SETTING BG-COLORS FOR THE DIFFERENT BLOCKS */
 header,
 footer {
     background-color: #1f2937;
 }
 
+
+/* BEGIN HEADER */
 header .container {
-    width: 72%;
+    width: 75%;
     margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     flex-direction: column;
 }
@@ -74,11 +85,15 @@ a {
 
 .container-title {
     display: flex;
-    margin: 100px 0;
+    margin: 120px 0;
     gap: 25px;
 }
 
-.sign-up-1 {
+.title p {
+    margin: 8px 0;
+}
+
+button.sign-up-1 {
     border: none;
 }
 
@@ -94,7 +109,11 @@ a {
     max-width: 100%;
     height: auto;
 }
+/* END HEADER */
 
+
+
+/* BEGIN SECTION "INFORMATION" */
 .information {
     display: flex;
     flex-direction: column;
@@ -103,11 +122,15 @@ a {
     margin: 0 auto;
 }
 
+h2 {
+    padding: 50px;
+}
+
 .set-of-pictures {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 70px;
+    margin-bottom: 120px;
 }
 
 .set-of-pictures figure {
@@ -115,17 +138,22 @@ a {
     width: min-content;
 }
 
-figure {
+.set-of-pictures figure {
     font-size: 18px;
+    text-align: center;
 }
 
 .set-of-pictures figure img {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border: #3882f6 solid 5px;
     border-radius: 10px;
 }
+/* END SECTION "INFORMATION" */
 
+
+
+/* BEGIN QUOTATION SECTION */
 .quote-section {
     background-color: #e5e7eb;
     font-size: 36px;
@@ -134,7 +162,12 @@ figure {
     color: #1f2937;
     box-sizing: border-box;
     width: 100%;
-    padding: 80px 180px 80px 195px;
+    padding: 110px 270px 110px 310px;
+    margin: 0;
+}
+
+blockquote {
+    padding: 0;
     margin: 0;
 }
 
@@ -143,23 +176,40 @@ figure {
     font-weight: 700;
     font-style: normal;
     text-align: right;
-    margin-right: 70px;
+    margin-right: 50px;
 }    
+/* END QUOTATION "QUOTE-SECTION" */
 
+
+
+/* BEGIN SECTION "CALL TO ACTION" */
 .call-to-action {
     background-color: #3882f6;
     display: flex;
     box-sizing: border-box;
-    width: 72%;
-    margin: 80px auto;
-    padding: 30px 50px;
+    width: 75%;
+    margin: 100px auto;
+    padding: 50px 25px;
     border-radius: 10px;
     align-items: center;
     justify-content: space-around;
 }
+/* END SECTION "CALL TO ACTION" */
 
 
 
+/* BEGIN FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer p {
+    color: #f9faf8;
+}
+/* END FOOTER */
 
 
 /* 
