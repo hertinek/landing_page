@@ -157,7 +157,7 @@ h2 {
 .quote-section {
     background-color: #e5e7eb;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 300;
     font-style: italic;
     color: #1f2937;
     box-sizing: border-box;
@@ -177,7 +177,8 @@ blockquote {
     font-style: normal;
     text-align: right;
     margin-right: 50px;
-}    
+}
+
 /* END QUOTATION "QUOTE-SECTION" */
 
 
