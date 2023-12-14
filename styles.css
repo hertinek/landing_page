@@ -100,6 +100,7 @@ button#sign-up-1 {
 
 .rectangle-picture {
     flex: 1;
+    cursor: url('./images/googly-eyes-cursor.png'), auto;
 }
 
 .title {
