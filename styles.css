@@ -49,6 +49,12 @@ body {
         text-decoration: none;
         color: inherit;
     }
+
+    a:hover {
+        letter-spacing: 2px;
+        text-decoration: wavy underline;
+    }
+
     /* END TEXT DISPLAY SELECTORS */
 
 
