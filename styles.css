@@ -122,6 +122,7 @@ button#sign-up-1 {
     align-items: center;
     width: 72%;
     margin: 0 auto;
+    cursor: url('./images/icons8-cursor-64.png'), auto;
 }
 
 h2 {
